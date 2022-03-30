@@ -25,7 +25,7 @@ api.add_resource(Common, '/common')
 
 @app.route('/')
 def index():
-    return app.send_static_file('index.html')
+    return app.send_static_file('login.html')
 
 
 if __name__ == '__main__':
