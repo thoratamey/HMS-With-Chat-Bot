@@ -11,9 +11,24 @@
     
 
 <div class="login-box">
+<style>
+    .login-box
+    {
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    }
+</style>
 
 <img src="logo.png" alt="Logo" class="avatar">
-    <h1>Admin<br>Login Here</h1>
+    <h1>For Admin<br>Login Here</h1>
     <form action="#" method="post">
 
         <p>Username</p>
@@ -44,14 +59,34 @@
         <a href="#">Forget Password</a>
 
     </form>
-<div class="chatbot">
+</div>
+<div class="chat-bot">
+<style>
+    .chat-bot
+    {
+    width: 320px;
+    height: 220px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    right: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    }
+</style>
 
 <img src="logo.png" alt="Logo" class="avatar">
-    <h1>Patient<br>Health ChatBot</h1>
+    <h1>For Patient<br>Health ChatBot</h1>
     <form action="#" method="post">
-        <a href="#">
-            <input type="button" name="button" value="ChatBot">
+        <a href="index.html">
+        <input type="button" name="button" value="ChatBot">
             <style>
+            input{
+            width: 100%;
+            margin-bottom: 20px ;
+            }
             input[type="button"]
             {
             border: none;
@@ -70,10 +105,8 @@
             }
             </style>
         </a>
-
     </form>
 </div>
-
 
 </body>
 </html>

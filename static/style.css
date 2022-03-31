@@ -11,11 +11,11 @@ body{
 
 .login-box{
 width: 320px;
-height: 420px;
+height: 550px;
 background: rgba(0, 0, 0, 0.5);
 color: #fff;
 top: 50%;
-left: 70%;
+left: 50%;
 position: absolute;
 transform: translate(-50%,-50%);
 box-sizing: border-box;
@@ -23,19 +23,6 @@ padding: 70px 30px;
 
 }
 
-.chatbot{
-width: 320px;
-height: 220px;
-background: rgba(0, 0, 0, 0.5);
-color: #fff;
-top: 50%;
-right: 160%;
-position: absolute;
-transform: translate(-50%,-50%);
-box-sizing: border-box;
-padding: 70px 30px;
-
-}
 
 .avatar
 {
@@ -64,6 +51,7 @@ h1{
 
 
 }
+
 
 .login-box input{
 
